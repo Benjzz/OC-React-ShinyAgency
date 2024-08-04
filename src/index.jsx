@@ -13,10 +13,6 @@ const GlobalStyle = createGlobalStyle`
     * {
       font-family: 'Trebuchet MS', Helvetica, sans-serif;
     }
-
-    body {
-      margin: 0;
-    }
 `
 
 ReactDOM.render(
@@ -33,5 +29,5 @@ ReactDOM.render(
       </Routes>
     </Router>
   </React.StrictMode>,
-  document.getElementById('root'),
+  document.getElementById('root')
 )
